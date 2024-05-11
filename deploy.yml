@@ -16,4 +16,4 @@ spec:
         - name: hello-container
           image: kunal1010/hello
           ports:
-            - containerPort: 82
+            - containerPort: 80
