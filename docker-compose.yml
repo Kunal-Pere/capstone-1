@@ -7,4 +7,4 @@ services:
   sample2:
     image: kunal1010/cap1
     ports:
-      - "90:80"
+      - "89:80"
