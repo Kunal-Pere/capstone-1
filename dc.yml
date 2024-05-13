@@ -1,0 +1,10 @@
+version: '3'
+services:
+  sample1:
+    image: httpd
+    ports:
+      - "80:80"
+  sample2:
+    image: kunal1010/cap1
+    ports:
+      - "90:80"
