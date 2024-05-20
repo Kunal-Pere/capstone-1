@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     app: cap1
-  type: ClusterIP
+  type:hkllkjjlll;;k;k;;k;;;lkkl;;kl;ll;k;kl;klkl;kl;;kklklkl
   ports:
     - protocol: TCP
       port: 80
