@@ -5,8 +5,9 @@ metadata:
 spec:
   selector:
     app: cap1
-  type: ClusterIP
+  type: NodePort
   ports:
     - protocol: TCP
       port: 80
       targetPort: 80
+      nodePort: 30080
