@@ -27,7 +27,7 @@ pipeline{
         stage("deploy in swarm stack"){
             steps{
                 echo"deploying cap1 app"
-                sh "docker stack deploy -c docker-compose.yml cap1_deployment"
+                sh "docker stack deploy -c Docker-compose.yml cap1_deployment"
             }
         }
     }
